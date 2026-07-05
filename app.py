@@ -69,7 +69,7 @@ def work(n: int = Query(1, ge=0, description="Units of work to perform")):
     total = 0
     for i in range(n):
         total += i * i  # trivial CPU work
-    return {"email": "your_email@example.com", "done": n}
+    return {"email": "24f2006741@ds.study.iitm.ac.in", "done": n}
 
 
 @app.get("/metrics")
